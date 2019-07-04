@@ -25,7 +25,7 @@ const hoverLinks = document.querySelectorAll('a');
             t1.reverse();
             $(document).on("click", ".menu-btn", function() {
                   t1.reversed(!t1.reversed());
-                  
+                  document.querySelector('.menu-overlay').classList.toggle('.is-hidden')
             });
 
             

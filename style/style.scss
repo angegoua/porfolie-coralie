@@ -182,7 +182,6 @@ nav {
     border-bottom: 3px solid $pink;
     box-shadow: inset 0 -5px 0 $pink; 
     transition: all 0.2s ease-in;
-
     &:hover{
         box-shadow: inset 0 -20px 0 $pink;
         color: white;
@@ -254,6 +253,10 @@ nav {
     height: 100vh;
 }
 
+.is-hidden{
+    display: none;
+}
+
 .block {
     position: absolute;
     width: 0%;
@@ -281,7 +284,7 @@ nav {
     position: absolute;
     width: 1px;
     height: 100vh;
-    background: rgba(255, 255, 255, 0.46);
+    background: rgba(0, 0, 0, 0.15);
 }
 
 .one {
@@ -309,6 +312,7 @@ ul {
 }
 
 li {
+    font-family: 'Geomanist';
     padding: 12px 0;
     color: #fff;
     font-size: 36px;
